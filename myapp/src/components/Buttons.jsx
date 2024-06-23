@@ -3,11 +3,11 @@ import "../styles/button.css";
 const Buttons = (text) => {
 	return (
 		<button
-			className={`${text.class} ui-btn`}
+			className={`${text.class} boton-elegante`}
 			onClick={text.click}
 			type={text.type}
 		>
-			<span>{text.text}</span>
+			{text.text}
 		</button>
 	);
 };

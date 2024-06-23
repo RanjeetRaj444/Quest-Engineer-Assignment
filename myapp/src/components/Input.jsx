@@ -1,14 +1,14 @@
 // import React from 'react'
 
 const Input = (text) => {
-	console.log(text);
+	// console.log(text);
 	return (
 		<div className="form__group field">
 			<input
 				type="input"
 				className="form__field"
 				placeholder={text.text}
-				required="true"
+				required={true}
 			/>
 			<label className="form__label">{text.text}</label>
 		</div>
