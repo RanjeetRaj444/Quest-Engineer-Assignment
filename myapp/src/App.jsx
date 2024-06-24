@@ -5,12 +5,12 @@ import Input from "./components/Input";
 import Buttons from "./components/Buttons";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { getData } from "./data";
+// import { getData } from "./data";
 import home_image from "./assets/hone-img.webp";
 
 const App = () => {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-	const [data, setData] = useState({});
+	// const [data, setData] = useState({});
 	const notify = () => {
 		// Calling toast method by passing string
 		toast.success("Successful", {
@@ -63,7 +63,7 @@ const App = () => {
 						</div>
 						<div className="buttons">
 							<Buttons click={notify} text="Login" />
-							<Buttons text="getStartd" />
+							<Buttons text="Get Started" />
 						</div>
 					</div>
 				</div>
